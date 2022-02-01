@@ -1,0 +1,79 @@
+.news-col {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: -250%;
+    z-index: 0;
+    display: block;
+    content: "";
+    width: 300%;
+    height: 100%;
+    background: #000;
+    background: #000;
+    -webkit-transform: skewX(-67deg);
+    transform: skewX(-67deg);
+    transition: all 0.5s ease-in-out;
+  }
+
+  &:hover::before {
+    left: -57%;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.bring-top {
+  position: relative;
+  margin-top: -145px;
+}
+
+.customized-card {
+  img {
+    object-fit: cover;
+    object-position: right top;
+    z-index: -1;
+    top: 0;
+    right: 0;
+  }
+}
+
+.cover-image {
+  object-fit: cover;
+  top: 0;
+  right: 0;
+}
+
+.avatar-in-line {
+  height: 13.6vw;
+  width: 13.6vw;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 185px;
+  max-height: 185px;
+  object-fit: cover;
+  border-radius: 100%;
+  object-position: 16% 25%;
+  padding: 5px;
+  margin-left: 5rem;
+  border: 1px solid $tertiary;
+}
+
+.triangle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.line-section {
+  background: url("../img/line.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 50vw;
+  bottom: -12.6vw;
+}

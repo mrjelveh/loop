@@ -1,0 +1,31 @@
+body {
+  background: $tertiary;
+}
+
+.menu-edit {
+  height: 82px;
+}
+
+.social-icon {
+  display: inline-block;
+  img {
+    height: 32px;
+  }
+  &.in-modal {
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    img {
+      max-height: 24px;
+      filter: invert(100%);
+    }
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      transition: all 0.25s ease-in-out;
+      background-color: $tertiary;
+      img {
+        filter: invert(0%);
+      }
+    }
+  }
+}

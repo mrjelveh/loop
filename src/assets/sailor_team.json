@@ -1,0 +1,178 @@
+[{
+	"image": "img/img-(1).png",
+	"name": "Crew Member 1",
+	"duties": "Tactic and Trim",
+	"duty_slugs": ["tactic", "trim"]
+}, {
+	"image": "img/img-(2).png",
+	"name": "Crew Member 2",
+	"duties": "Helmsman",
+	"duty_slugs": ["helmsman"]
+}, {
+	"image": "img/img-(3).png",
+	"name": "Crew Member 3",
+	"duties": "Helmsman and Tactic",
+	"duty_slugs": ["helmsman", "tactic"]
+}, {
+	"image": "img/img-(4).png",
+	"name": "Crew Member 4",
+	"duties": "Main Helmsman",
+	"duty_slugs": ["helmsman"]
+}, {
+	"image": "img/img-(5).png",
+	"name": "Crew Member 5",
+	"duties": "Helmsman and Trim",
+	"duty_slugs": ["helmsman", "trim"]
+}, {
+	"image": "img/img-(6).png",
+	"name": "Crew Member 6",
+	"duties": "Trim",
+	"duty_slugs": ["trim"]
+}, {
+	"image": "img/img-(7).png",
+	"name": "Crew Member 7",
+	"duties": "Tactic and Trim",
+	"duty_slugs": ["tactic", "trim"]
+}, {
+	"image": "img/img-(8).png",
+	"name": "Crew Member 8",
+	"duties": "Helmsman and Trim",
+	"duty_slugs": ["helmsman", "trim"]
+}, {
+	"image": "img/img-(9).png",
+	"name": "Crew Member 9",
+	"duties": "Junior Helmsman",
+	"duty_slugs": ["helmsman"]
+}, {
+	"image": "img/img-(10).png",
+	"name": "Crew Member 10",
+	"duties": "Tactic and Trim",
+	"duty_slugs": ["tactic", "trim"]
+}, {
+	"image": "img/img-(11).png",
+	"name": "Crew Member 11",
+	"duties": "Senior Helmsman and Trim",
+	"duty_slugs": ["helmsman", "trim"]
+}, {
+	"image": "img/img-(12).png",
+	"name": "Crew Member 12",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "img/img-(13).png",
+	"name": "Crew Member 13",
+	"duties": "Trim",
+	"duty_slugs": ["trim"]
+}, {
+	"image": "img/img-(14).png",
+	"name": "Crew Member 14",
+	"duties": "Tactic and Trim",
+	"duty_slugs": ["tactic", "trim"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=1",
+	"name": "Crew Member 15",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=2",
+	"name": "Crew Member 16",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=3",
+	"name": "Crew Member 17",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=4",
+	"name": "Crew Member 18",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=5",
+	"name": "Crew Member 19",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=6",
+	"name": "Crew Member 20",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=7",
+	"name": "Crew Member 21",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=8",
+	"name": "Crew Member 22",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=9",
+	"name": "Crew Member 23",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=10",
+	"name": "Crew Member 24",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=11",
+	"name": "Crew Member 25",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=12",
+	"name": "Crew Member 26",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=13",
+	"name": "Crew Member 27",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=14",
+	"name": "Crew Member 28",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=15",
+	"name": "Crew Member 29",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=16",
+	"name": "Crew Member 30",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=17",
+	"name": "Crew Member 31",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=18",
+	"name": "Crew Member 32",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=19",
+	"name": "Crew Member 33",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=20",
+	"name": "Crew Member 34",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}, {
+	"image": "https://i.pravatar.cc/600?img=21",
+	"name": "Crew Member 35",
+	"duties": "Tactic",
+	"duty_slugs": ["tactic"]
+}
+
+]

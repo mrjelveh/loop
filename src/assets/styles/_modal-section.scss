@@ -1,0 +1,58 @@
+// modal of news part
+.modal-fullscreen {
+  height: calc(100vh - 82px) !important;
+  top: 82px;
+}
+
+.modal-carousel {
+  .carousel-item {
+    img {
+      height: 350px;
+      object-fit: cover;
+    }
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    padding: 12px 0;
+    width: 50px;
+    img {
+      height: 24px;
+      width: auto;
+    }
+  }
+}
+
+.modal-sidebar {
+  position: fixed;
+  right: 15px;
+}
+
+.card-img-slider {
+  height: 150px;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.splide__arrow {
+  &#{--prev} {
+    left: 0.7em;
+  }
+  &#{--next} {
+    right: 0.7em;
+  }
+  svg {
+    fill: #000;
+    height: 25px;
+    width: auto;
+  }
+  &:hover {
+    svg {
+      fill: $secondary;
+    }
+  }
+}

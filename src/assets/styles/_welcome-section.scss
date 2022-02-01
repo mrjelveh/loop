@@ -1,0 +1,45 @@
+.welcome-area {
+  width: 100%;
+  height: calc(100vh - 82px);
+  z-index: 1;
+  &#{--text} {
+    top: 146px;
+    right: 15px;
+    max-width: 528px;
+  }
+  &#{--image} {
+    object-fit: cover;
+    clip-path: polygon(0px 0px, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+    position: relative;
+    z-index: -1;
+  }
+  .compass-img {
+    top: 98px;
+    right: -200px;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(30deg);
+  }
+  60% {
+    transform: rotate(-35deg);
+  }
+  80% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,81 @@
+.grid {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-item {
+  position: relative;
+  width: 19.7vw;
+  height: 19.7vw;
+  .item-img {
+    height: 100%;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      filter: grayscale(100%);
+    }
+  }
+
+  .item-info {
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $tertiary;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: all 0.3s ease-in-out;
+    &#{-text} {
+      color: #000;
+    }
+  }
+  &:hover {
+    z-index: 999;
+    .item-img img {
+      filter: grayscale(0%);
+    }
+    .item-info {
+      opacity: 1;
+      left: 100%;
+    }
+    &.hover-right {
+      .item-info {
+        left: -100%;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  .team-item {
+    width: $team-item-width-xl;
+    height: $team-item-width-xl;
+  }
+}
+@include media-breakpoint-down(lg) {
+  .team-item {
+    width: $team-item-width-lg;
+    height: $team-item-width-lg;
+  }
+}
+@include media-breakpoint-down(md) {
+  .team-item {
+    width: $team-item-width-md;
+    height: $team-item-width-md;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .team-item {
+    width: $team-item-width-sm;
+    height: $team-item-width-sm;
+  }
+}
